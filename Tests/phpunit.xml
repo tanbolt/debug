@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit backupGlobals="false"
+         backupStaticAttributes="false"
+         colors="true"
+         convertErrorsToExceptions="true"
+         convertNoticesToExceptions="true"
+         convertWarningsToExceptions="true"
+         processIsolation="false"
+         stopOnError="false"
+         stopOnFailure="false"
+         syntaxCheck="true"
+         verbose="true"
+         bootstrap="phpunit.php"
+>
+    <testsuites>
+        <testsuite name="Debug Test Suite">
+            <directory>./</directory>
+        </testsuite>
+        <testsuite name="DebugTrait Test Suite">
+            <directory suffix=".phpt">./phpt</directory>
+        </testsuite>
+    </testsuites>
+</phpunit>
